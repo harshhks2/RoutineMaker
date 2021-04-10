@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="4dp"
+    android:id="@+id/LinearLayout1">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="61dp"
+        android:layout_weight="13.5"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="#241150"
+        android:gravity="center"
+        android:text="06:00"
+        android:id="@+id/startTime"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_weight="5.5"
+        android:gravity="center"
+        android:textColor="#46434A"
+        android:text="AM"
+        android:textSize="13dp"
+        android:id="@+id/startPeriod"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_weight="3"
+        android:text="-"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="16dp"
+        android:id="@+id/dash" />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="61dp"
+        android:layout_weight="13.5"
+        android:text="11:30"
+        android:textStyle="bold"
+        android:textColor="#241150"
+        android:gravity="center"
+        android:textSize="17dp"
+        android:id="@+id/endTime"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_weight="5.5"
+        android:text="PM"
+        android:textColor="#46434A"
+        android:textSize="13dp"
+        android:gravity="center"
+        android:id="@+id/endPeriod"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_weight="4"
+        android:text=":"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:id="@+id/colon" />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="61dp"
+        android:layout_weight="42"
+        android:text="Brush Your Teeth"
+        android:textStyle="bold"
+        android:textColor="#050110"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:id="@+id/routineText"
+        />
+
+</LinearLayout>
